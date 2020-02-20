@@ -1,0 +1,36 @@
+body {
+    background-color: #fefefe;
+}
+
+h2 {
+    color: #1460AA;
+}
+
+.header {
+    background-color: rgb(123, 231, 123);
+    color: darkred;
+}
+
+.mainHeader {
+    font-weight: bold;
+}
+
+.section {
+    background-color: #6d8383;
+}
+
+.diaryHeader {
+    font-size: 35px;
+}
+
+.diarySection {
+    font-style: italic;
+}
+
+.dailyHeader {
+    color: blueviolet;
+}
+
+.footer {
+    font-size: 10px;
+}
