@@ -2,25 +2,20 @@ body {
     background-color: #fefefe;
 }
 
-h2 {
-    color: #1460AA;
-}
-
-.header {
-    background-color: rgb(123, 231, 123);
-    color: darkred;
+.link {
+    color: #7A8450;
 }
 
 .mainHeader {
     font-weight: bold;
 }
 
-.section {
-    background-color: #6d8383;
-}
+.section {}
 
-.diaryHeader {
-    font-size: 35px;
+.diaryHeader,
+.sectionHeader {
+    font-size: 30px;
+    color: #B6465F;
 }
 
 .diarySection {
@@ -29,6 +24,7 @@ h2 {
 
 .dailyHeader {
     color: blueviolet;
+    font-size: 20px;
 }
 
 .footer {
