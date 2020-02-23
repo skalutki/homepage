@@ -2,45 +2,9 @@ body {
     background-color: #fefefe;
 }
 
-.link {
-    color: #7A8450;
-}
-
-.mainHeader {
-    font-weight: bold;
-    padding-top: 20px;
-}
-
-.section {}
-
-.diaryHeader,
-.sectionHeader {
-    font-size: 30px;
-    color: #B6465F;
-}
-
-.diarySection {
-    font-style: italic;
-}
-
-.dailyHeader {
-    color: blueviolet;
-    font-size: 20px;
-}
-
 .footer {
     font-size: 10px;
 }
-
-.about {
-    width: 700px;
-}
-
-.articleHeader {
-    padding-top: 20px;
-}
-
-.pharagraph {}
 
 .navigation {
     position: fixed;
@@ -54,15 +18,68 @@ body {
     text-decoration: none;
 }
 
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
 .main {
     width: 100%;
     max-width: 700px;
     margin: 32px auto;
 }
 
-.top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
+.main__header {
+    padding-top: 20px;
+}
+
+.about {
+    width: 700px;
+}
+
+.about__header {
+    font-size: 30px;
+    color: #B6465F;
+}
+
+.about__paragraph {}
+
+.diary {}
+
+.diary__header {
+    font-size: 30px;
+    color: #B6465F;
+}
+
+.daily {
+    font-style: italic;
+}
+
+.daily__header {
+    color: blueviolet;
     font-size: 20px;
+}
+
+.daily__paragraph {}
+
+.daily_link {
+    color: #7A8450;
+    text-decoration: none;
+}
+
+.article {}
+
+.article__header {
+    color: #B6465F;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.article__footer {}
+
+.article__footer-img {
+    width: 100%;
+    max-width: 700px;
 }
