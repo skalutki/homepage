@@ -8,6 +8,7 @@ body {
 
 .mainHeader {
     font-weight: bold;
+    padding-top: 20px;
 }
 
 .section {}
@@ -35,4 +36,33 @@ body {
     width: 700px;
 }
 
+.articleHeader {
+    padding-top: 20px;
+}
+
 .pharagraph {}
+
+.navigation {
+    position: fixed;
+    background-color: #fefefe;
+    width: 100%;
+}
+
+.navigation__link,
+.top {
+    color: #7A8450;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+}
