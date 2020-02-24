@@ -36,7 +36,8 @@ body {
 }
 
 .about {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
 }
 
 .about__header {
