@@ -35,7 +35,9 @@ body {
     margin: 32px auto;
 }
 
-.main__header {
+.heder {}
+
+.header__title {
     padding-top: 20px;
 }
 
