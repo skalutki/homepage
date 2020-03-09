@@ -1,13 +1,13 @@
 body {
-    background-color: #fefefe;
+    background: rgb(145, 175, 11);
+    background: linear-gradient(45deg, rgba(145, 175, 11, 0.8421743697478992) 55%, rgba(0, 212, 255, 1) 100%);
 }
 
 .footer {
     font-size: 10px;
 }
 
-.navigation {
-    background-color: #fefefe;
+.site-header {
     height: 25px;
     width: 100%;
     position: fixed;
@@ -16,10 +16,21 @@ body {
     padding-top: 20px;
 }
 
+.navigation {}
+
 .navigation__link,
 .top {
     color: #7A8450;
     text-decoration: none;
+}
+
+.navigation__list {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
 }
 
 .top {
@@ -38,7 +49,7 @@ body {
 .heder {}
 
 .header__title {
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
 .about {
