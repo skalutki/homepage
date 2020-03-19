@@ -133,6 +133,47 @@
                 grid-column-gap: 16px;
                 grid-row-gap: 16px;
             }
+            .site-header {
+                padding: 0;
+                top: 0;
+                left: 0;
+            }
+            .main {
+                margin-top: 0;
+            }
+            .navigation {
+                background-color: #fefefe;
+                margin: 0;
+            }
+            .navigation__button {
+                border: none;
+                position: absolute;
+                top: 0;
+                right: 16px;
+                background-color: #fefefe;
+            }
+            .navigation__list {
+                display: none;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0;
+                padding: 4px;
+            }
+            .navigation__list--visible {
+                display: flex;
+            }
+            .navigation__item {
+                margin: 16px;
+            }
+        }
+        
+        @media (min-width: 641px) {
+            .navigation__button {
+                display: none;
+            }
+            .navigation__icon {
+                display: none;
+            }
         }
         
         @media (min-width: 1200px) {

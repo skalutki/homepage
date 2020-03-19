@@ -9,7 +9,7 @@ console.log(`Nazywam sie ${name} i mam ${age} lat.`);
 
 const test = document.querySelector('.test__paragraph--js');
 
-test.innerHTML = `Nazywam sie ${name} i mam ${age} lat.`;
+
 
 
 
@@ -19,3 +19,13 @@ const welcome = (Wname, Wage) => {
 }
 
 welcome('Tomek', 31);
+
+const navigationButton = document.querySelector('.navigation__button--js');
+
+navigationButton.addEventListener('click', (e) => {
+
+    const navigationList = document.querySelector('.navigation__list--js');
+
+    navigationList.classList.toggle('navigation__list--visible');
+
+});
