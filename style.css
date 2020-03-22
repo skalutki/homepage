@@ -151,6 +151,25 @@
                 top: 0;
                 right: 16px;
                 background-color: #fefefe;
+                z-index: 2;
+            }
+            .navigation__button__X {
+                border: none;
+                position: absolute;
+                top: 0;
+                right: 16px;
+                background-color: #fefefe;
+                height: 37px;
+                width: 44px;
+                font-size: 38px;
+                font-weight: bold;
+                z-index: 1;
+            }
+            .navigation__button--notVisible {
+                display: none;
+            }
+            .navigation__button__X--visible {
+                z-index: 3;
             }
             .navigation__list {
                 display: none;
